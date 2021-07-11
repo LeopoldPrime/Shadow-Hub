@@ -98,7 +98,7 @@ AdminScripts.Text = "Admin Scripts"
 AdminScripts.TextColor3 = Color3.fromRGB(255, 255, 255)
 AdminScripts.TextSize = 14.000
 AdminScripts.MouseButton1Down:connect(function()
-	AdminScriptsHub.Visible = false
+	AdminScriptsHub.Visible = true
 end)
  
 UICorner_3.Parent = AdminScripts
